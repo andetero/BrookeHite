@@ -87,6 +87,10 @@ h3 { margin-top: 0; }
   box-shadow: 0 10px 30px var(--photo-shadow);
 }
 
+.hero-photo img {
+  object-position: center 28%;
+}
+
 .profile-photo-wrap {
   display: flex;
   justify-content: center;
