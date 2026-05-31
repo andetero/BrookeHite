@@ -77,19 +77,21 @@ h3 { margin-top: 0; }
   align-items: center;
 }
 
-.hero-photo img,
-.profile-photo {
-  width: min(260px, 72vw);
-  height: min(260px, 72vw);
-  object-fit: cover;
+.hero-photo,
+.profile-photo-wrap {
+  background: #ffffff;
   border-radius: 50%;
-  display: block;
-  box-shadow: 0 10px 30px var(--photo-shadow);
 }
 
 .hero-photo img,
 .profile-photo {
-  object-position: center 40%;
+  width: min(260px, 72vw);
+  height: min(260px, 72vw);
+  object-fit: contain;
+  object-position: center center;
+  border-radius: 50%;
+  display: block;
+  box-shadow: 0 10px 30px var(--photo-shadow);
 }
 
 .profile-photo-wrap {
