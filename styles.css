@@ -79,11 +79,12 @@ h3 { margin-top: 0; }
 
 .hero-photo img,
 .profile-photo {
-  width: min(260px, 72vw);
-  height: min(260px, 72vw);
+  width: min(300px, 78vw);
+  height: auto;
+  max-height: min(420px, 88vw);
   object-fit: contain;
   object-position: center center;
-  border-radius: 50%;
+  border-radius: 24px;
   display: block;
   box-shadow: 0 10px 30px var(--photo-shadow);
 }
