@@ -77,18 +77,12 @@ h3 { margin-top: 0; }
   align-items: center;
 }
 
-.hero-photo,
-.profile-photo-wrap {
-  background: #ffffff;
-  border-radius: 50%;
-}
-
 .hero-photo img,
 .profile-photo {
   width: min(260px, 72vw);
   height: min(260px, 72vw);
-  object-fit: contain;
-  object-position: center center;
+  object-fit: cover;
+  object-position: center 40%;
   border-radius: 50%;
   display: block;
   box-shadow: 0 10px 30px var(--photo-shadow);
