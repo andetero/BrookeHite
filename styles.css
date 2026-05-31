@@ -81,8 +81,8 @@ h3 { margin-top: 0; }
 .profile-photo {
   width: min(260px, 72vw);
   height: min(260px, 72vw);
-  object-fit: cover;
-  object-position: center 40%;
+  object-fit: contain;
+  object-position: center center;
   border-radius: 50%;
   display: block;
   box-shadow: 0 10px 30px var(--photo-shadow);
