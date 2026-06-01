@@ -72,9 +72,16 @@ h3 { margin-top: 0; }
 
 .hero-card-split {
   display: grid;
-  grid-template-columns: 260px 1fr;
+  grid-template-columns: 1fr;
   gap: 32px;
   align-items: center;
+  justify-items: center;
+  text-align: center;
+}
+
+.hero-card-split .lead {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .hero-photo img,
